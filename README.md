@@ -88,4 +88,53 @@ across categories, subcategories, countries, and years.
 - Projects peaked around 2015 (75K projects).
 
 [View the full report (PDF)](KICKSTARTER.pdf)
+-------------------------------------------------------------------------------------------------------------------
+## Superstore Sales Dashboard
+
+**Overview:**
+A multi-page Power BI report analyzing Superstore sales data: how much was
+sold, how profitable it was, and how performance varies across products,
+customer segments, states, and shipping modes over the years.
+
+**Tools:** Power BI Desktop, DAX, Power Query
+
+**Dashboard Pages:**
+1. **Overview:** KPIs (Total Sales, Total Profit, Profit Margin %, YoY Growth %,
+   Running Total Sales), Total Sales by Year, Total Sales by State, and
+   Sales by Category.
+2. **Product Analysis:** Total Profit by Sub-Category (waterfall), Total Sales
+   by Sub-Category (treemap), a Sales vs Profit bubble chart, and a table
+   with Sales, Profit, and Profit Margin % per Sub-Category.
+3. **Customer Insights:** Total Sales by Segment (donut), Total Profit by
+   Ship Mode, a Segment x Category matrix, and Total Sales by Customer.
+4. **Shipping & Returns:** Sales and Profit by Ship Mode, Sales by Ship Date
+   (Year > Quarter > Month > Day), and Returns Analysis (returned vs
+   non-returned orders).
+
+**Approach:**
+1. Loaded and cleaned the Superstore dataset in Power Query.
+2. Built DAX measures: Total Sales, Total Profit, Profit Margin %,
+   YoY Growth %, and Running Total Sales.
+3. Designed a multi-page report with a custom navigation menu and a
+   consistent color theme.
+
+**Techniques & Skills:**
+- Data cleaning and data modeling
+- DAX measures and KPIs
+- Waterfall, Treemap, Donut, Bubble, Bar, and Matrix visuals
+- Page navigation buttons
+- Comparing profitability across products, segments, and shipping modes
+
+**Key Insights:**
+- Total sales reached $2.30M with $286.4K profit (12.5% margin) and 46.9% YoY growth.
+- Technology leads with $836K (36.4%), followed by Furniture (32.3%) and Office Supplies (31.3%).
+- The Consumer segment generates about 51.6% of sales.
+- Copiers are the most profitable sub-category ($55.6K, 37.2% margin).
+- Chairs have the highest sales ($328K) but a low margin of 8.1%.
+- Bookcases operate at a loss (-3.0% margin) and Tables also reduce total profit.
+- Standard Class is the most profitable ship mode by a large margin.
+- California, New York, and Texas are the top states by sales.
+- About 8% of orders were returned.
+
+ [View the full report (PDF)](Superstore.pdf)
 
